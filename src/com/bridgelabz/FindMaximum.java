@@ -16,7 +16,7 @@ public class FindMaximum {
     public static void main(String[] args) {
 
         System.out.println("Welcome To Find Maximum number Program...");
-        System.out.println("Maximum Integer value between 3 values : "+maxOfFloat(3.1f,8.5f,9.6f));
+        System.out.println("Maximum Float value between 3 values : "+maxOfFloat(3.1f,8.5f,9.6f));
 
     }
 }
