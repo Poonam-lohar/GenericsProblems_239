@@ -2,9 +2,9 @@ package com.bridgelabz;
 
 public class FindMaximum {
 
-    public static Integer maxOfInteger(Integer x,Integer y,Integer z) {
+    public static Float maxOfFloat(Float x,Float y,Float z) {
 
-        Integer max = x;
+        Float max = x;
         if (y.compareTo(max) > 0)
             max = y;
         if (z.compareTo(max) > 0)
@@ -16,7 +16,7 @@ public class FindMaximum {
     public static void main(String[] args) {
 
         System.out.println("Welcome To Find Maximum number Program...");
-        System.out.println("Maximum Integer value between 3 values : "+maxOfInteger(3,8,9));
+        System.out.println("Maximum Integer value between 3 values : "+maxOfFloat(3.1f,8.5f,9.6f));
 
     }
 }
